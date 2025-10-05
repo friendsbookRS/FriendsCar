@@ -1,0 +1,16 @@
+{
+  "name": "ride-bot-vercel-completo",
+  "version": "1.0.0",
+  "description": "Ride bot serverless for Vercel with Mercado Pago and WhatsApp integration (taxa embarque R$3.50, reten\u00e7\u00e3o R$1).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "lowdb": "^3.0.0",
+    "shortid": "^2.2.16",
+    "qrcode": "^1.5.1",
+    "dotenv": "^16.3.1"
+  }
+}
